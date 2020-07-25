@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation API</title>
+    <link href="css/geolocation.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="content">
+        <h1>Geolocation Properties</h1>
+        <table>
+            <tr>
+                <th>Property</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Position.coords.latitude</td>
+                <td id="latitude"></td>
+            </tr>
+            <tr>
+                <td>Position.coords.longitude</td>
+                <td id="longitude"></td>
+            </tr>
+            <tr>
+                <td>Position.coords.accuracy</td>
+                <td id="accuracy"></td>
+            </tr>
+            <tr>
+                <td>Position.coords.altitude(sea)</td>
+                <td id="altitude"></td>
+            </tr>
+            <tr>
+                <td>Position.coords.altitudeAccuracy</td>
+                <td id="altitudeAccuracy"></td>
+            </tr>
+            <tr>
+                <td>Position.coords.heading</td>
+                <td id="heading"></td>
+            </tr>
+            <tr>
+                <td>Position.coords.speed</td>
+                <td id="speed"></td>
+            </tr>
+            <tr>
+                <td>Position.coords.timestamp</td>
+                <td id="timestamp"></td>
+            </tr>
+            <tr>
+                <td>PositionError.code</td>
+                <td id="code"></td>
+            </tr>
+            <tr>
+                <td>PositionError.message</td>
+                <td id="message"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/geolocation.js"></script>
+</body>
+</html>
